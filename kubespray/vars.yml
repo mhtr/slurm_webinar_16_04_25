@@ -6,4 +6,5 @@ metallb_config:
   address_pools:
     primary:
       ip_range:
-        - 192.0.1.0-192.0.1.254
+        - 5.75.169.149/32
+        - 91.99.78.20/32
