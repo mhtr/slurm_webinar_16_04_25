@@ -1,0 +1,9 @@
+kubeconfig_localhost: true
+kube_proxy_strict_arp: true
+metallb_enabled: true
+metallb_speaker_enabled: true
+metallb_config:
+  address_pools:
+    primary:
+      ip_range:
+        - 192.0.1.0-192.0.1.254
